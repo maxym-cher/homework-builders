@@ -1,0 +1,79 @@
+/*
+ Theme Name:     Project name
+ Theme URI:      https://www.elegantthemes.com/gallery/divi/
+ Description:    Divi Child Theme
+ Author:         Client name
+ Template:       Divi
+ Version:        1.0.0
+*/
+
+/*
+ Theme Name:     Project name
+ Theme URI:      https://www.elegantthemes.com/gallery/divi/
+ Description:    Divi Child Theme
+ Author:         Client name
+ Template:       Divi
+ Version:        1.0.0
+*/
+
+
+
+.vm-title a{
+    color: white !important;
+    font-size: 30px !important;
+    background: #072d49;
+    font-style: italic;
+    font-weight: 100;
+    text-transform: none !important;
+    padding: 20px 30px !important;
+}
+.vm-blue-item {
+    background: #005599;
+    margin-top: 5px !important;
+    & a {
+        color: white !important;
+        font-weight: 900;
+        display: flex !important;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 30px !important;
+        padding: 33px 30px !important;
+        &:after {
+            content: url("http://ready-for-feedback3.com/academy24_chili/m_chernenko/wp-content/uploads/2024/06/Shape-616-copy-2.png");
+        }
+    }
+}
+.vm-yellow-item {
+    background: #eecc11;
+    margin: 20px 10px 0 !important;
+    & a {
+        color: white !important;
+        font-weight: 900;
+        display: flex !important;
+        align-items: center;
+        font-size: 30px !important;
+        justify-content: space-between;
+        padding: 16px 20px !important;
+        &:after {
+            content: url("http://ready-for-feedback3.com/academy24_chili/m_chernenko/wp-content/uploads/2024/06/Shape-616-copy-2.png");
+        }
+    }
+}
+.et-menu {
+    margin: 35px 0 0 !important;
+}
+.menu-item {
+    width: 100%;
+    padding: 0 !important;
+    & a {
+        text-transform: uppercase;
+        color: #005599;
+        width: 100%;
+        padding: 20px 35px !important;
+        font-size: 25px;
+    }
+}
+
+.et_pb_row_0 {
+    background: linear-gradient(0deg, rgba(0,85,153,0.3477766106442577) 0%, rgba(0,86,150,0.3393732492997199) 18%, rgba(255,255,255,0) 100%)
+}
